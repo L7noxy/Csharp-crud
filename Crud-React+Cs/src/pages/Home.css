@@ -39,7 +39,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    z-index: 1;
+    z-index: 2;
 }
 
 .glass-card {
@@ -55,4 +55,28 @@
     color: #fff;
     position: relative;
     z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.glass-card:hover {
+    transform: scale(1.02);
+}
+
+.informacoes-home {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.349);
+}
+
+.link-git {
+    color: var(--cor2);
+    text-decoration: none;
 }
