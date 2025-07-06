@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 #root {
@@ -14,26 +17,25 @@
 }
 
 .home-container {
-    background: linear-gradient(-45deg, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
-    animation: animacaoGradiente 10s linear infinite;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
 }
 
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+}
 
-@keyframes animacaoGradiente {
-    0% {
-        rotate: 0% 50%;
-    }
-
-    50% {
-        rotate: 100% 50%;
-    }
-
-    100% {
-       rotate: 100% 0%;
-    }
+.conteudo {
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
