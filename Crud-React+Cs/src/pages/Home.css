@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#root {
+    --cor1: #D48DF2;
+    --cor2: #9130F2;
+    --cor3: #94ABF2;
+    --cor4: #1B78F2;
+    --cor5: #0D0D0D;
+}
+
+.home-container {
+    background: linear-gradient(-45deg, var(--cor1), var(--cor2), var(--cor3), var(--cor4));
+    animation: animacaoGradiente 10s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+@keyframes animacaoGradiente {
+    0% {
+        rotate: 0% 50%;
+    }
+
+    50% {
+        rotate: 100% 50%;
+    }
+
+    100% {
+       rotate: 100% 0%;
+    }
+}
