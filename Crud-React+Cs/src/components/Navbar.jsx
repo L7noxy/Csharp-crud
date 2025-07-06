@@ -1,8 +1,18 @@
-import React from 'react'
 import './Navbar.css'
 
-export default function Navbar() {
+function Navbar() {
+
   return (
-    <div>Navbar</div>
+    <>
+      <div className='container-navbar'>
+        <nav className="navbar">
+          <div className="buttons-container">
+            navbar
+          </div>
+        </nav>
+      </div>
+    </>
   )
 }
+
+export default Navbar;
