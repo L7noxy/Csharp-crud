@@ -8,6 +8,10 @@
     font-style: normal;
 }
 
+body {
+    height: 900px;
+}
+
 #root {
     --cor1: #D48DF2;
     --cor2: #9130F2;
@@ -67,10 +71,9 @@
     bottom: 0;
     left: 0;
     width: 100vw;
+    height: 100px;
     z-index: 1;
-    height: 200px;
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.349);

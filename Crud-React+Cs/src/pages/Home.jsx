@@ -16,8 +16,8 @@ export default function Home() {
                     <h1>Bem-vindo ao meu site</h1>
                     <p>Esse site foi feito para treinar e aprender a fazer um CRUD em C#</p>
                 </div>
-            </div>
 
+            </div>
             <div className='informacoes-home'>
                 <p>Desenvolvido por: <a href="https://github.com/L7noxy" className='link-git' target="_blank">Gabriel da Cunha</a></p>
             </div>
