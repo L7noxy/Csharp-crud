@@ -15,6 +15,7 @@ export default function Home() {
                 <div class="glass-card">
                     <h1>Bem-vindo ao meu site</h1>
                     <p>Esse site foi feito para treinar e aprender a fazer um CRUD em C#</p>
+                    <p>nesse site voce pode criar, editar e deletar um usuario</p>
                 </div>
 
             </div>

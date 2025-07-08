@@ -1,5 +1,4 @@
 import './Navbar.css'
-import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -7,12 +6,12 @@ function Navbar() {
     <>
       <div className='container-navbar'>
         <nav className="navbar">
+          <div>
+            <img src="./img/LogoCs.png" alt="" srcset="" />
+          </div>
           <div className="buttons-container">
-            {/* <Link to={'./login'} className="btn login">Login</Link>
-            <button onClick={() => setModalOpen(true)} className="btn signup">Cadastro</button>
-
-            <Link to={'./login'} className="btn login">Login</Link>
-            <button onClick={() => setModalOpen(true)} className="btn signup">Cadastro</button> */}
+            <a href="">cadastro</a>
+            <a href="">Login</a>
           </div>
         </nav>
       </div>
