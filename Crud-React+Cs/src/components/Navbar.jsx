@@ -12,7 +12,7 @@ function Navbar() {
           </div>
           <div className="buttons-container">
             <Link to={"/cadastro"}>cadastro</Link>
-            <a href="">Login</a>
+            <Link to={"/login"}>Login</Link>
           </div>
         </nav>
       </div>
