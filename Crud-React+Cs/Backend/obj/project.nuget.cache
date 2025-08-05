@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oOSvZMMi6GE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\batis\\OneDrive\\Documentos\\Csharp-crud\\Crud-React+Cs\\Backend\\Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\batis\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\batis\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
