@@ -31,3 +31,9 @@ C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\obj\Debug\n
 C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\obj\Debug\net9.0\Backend.pdb
 C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\obj\Debug\net9.0\Backend.genruntimeconfig.cache
 C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\obj\Debug\net9.0\ref\Backend.dll
+C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\bin\Debug\net9.0\DnsClient.dll
+C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\bin\Debug\net9.0\Snappier.dll
+C:\Users\batis\OneDrive\Documentos\Csharp-crud\Crud-React+Cs\Backend\bin\Debug\net9.0\ZstdSharp.dll
