@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import './Cadastro.css'
 
 export default function Cadastro() {
@@ -45,6 +46,7 @@ export default function Cadastro() {
           <input type="password" id="senha" name="senha" required />
 
           <button type="submit">Cadastrar</button>
+          
         </form>
       </div>
     </div>
